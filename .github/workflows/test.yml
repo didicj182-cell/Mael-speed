@@ -1,0 +1,14 @@
+name: Akses Terminal Linux GitHub
+on: [push]
+jobs:
+  akses-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Menyiapkan Folder Project
+        uses: actions/checkout@v4
+
+      - name: Mael-brok
+        uses: mxschmitt/action-tmate@v3
+        with:
+          limit-access-to-actor: true
+
