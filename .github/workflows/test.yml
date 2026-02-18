@@ -7,7 +7,7 @@ jobs:
       - name: Menyiapkan Folder Project
         uses: actions/checkout@v4
 
-      - name: Mael-akses-linuxx
+      - name: Mael-akses-linuxxx
         uses: mxschmitt/action-tmate@v3
         with:
           limit-access-to-actor: true
